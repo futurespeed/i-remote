@@ -1,0 +1,49 @@
+{
+    "code": "sisi",
+    "name": "i-Remote-Sisi",
+    "network-settings": {
+        "wifi": {
+            "ssid": "blue cave",
+            "passwd": "futurespeed"
+        },
+        "mqtt": {
+            "ip": "209.141.32.245",
+            "port": "1883",
+            "username": "jx",
+            "passwd": "jx123456"
+        }
+    },
+    "scenes": [
+        {
+            "code": "tv",
+            "name": "TV",
+            "type": "sony",
+            "key-map": {
+                "power": "A90",
+                "ok": "A70",
+                "cancel": "62E9",
+                "left": "2D0",
+                "right": "CD0",
+                "up": "2F0",
+                "down": "AF0"
+            },
+            "key-map-long": {
+                
+            }
+        },
+        {
+            "code": "fan",
+            "name": "Fan",
+            "key-map": {
+                "power": "FF18E7"
+            },
+            "key-map-long": {
+                
+            }
+        }
+    ],
+    "remote-clients" : [
+        {"code":"jx", "name": "i-Remote-JX"},
+        {"code":"jx-2", "name": "i-Remote-JX-2"}
+    ]
+}
